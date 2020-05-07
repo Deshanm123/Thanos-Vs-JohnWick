@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image:url("wall.jpg");
+    /* background-size: cover; */
+;
+}
+header{
+    background:rgb(195, 151, 216);
+     padding:20px;
+}
+ header > h1{
+     color:rgb(172, 39, 46);
+     text-align:center;
+     font-family:Asap,sans-serif;
+ }
+ 
+ .scoreBoard {
+margin:20px auto;
+border:3px solid white;
+border-radius:4px;
+text-align:center;
+width:720px;
+
+font-size:40px;
+color:white;
+padding:20px 10px;
+position:relative;
+ }
+
+ .badge{
+     
+     /* background-color:goldenrod; */
+     color:white;
+     font-size:20px;
+     font-family:sans-serif;
+ }
+
+ #userLabel {
+    
+     position:absolute;
+     top:30px;
+     left:550px; 
+
+ }
+
+ #computerLabel{
+     position:absolute;
+     top:30px;
+     right:550px;
+ }
+.content{
+     margin:340px;
+ }
+
+
+ .result > p{
+     font-size:23px;
+     text-align:center;
+     font-weight:bold;
+ }
