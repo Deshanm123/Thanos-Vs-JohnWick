@@ -1,18 +1,20 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>ROCK , PAPER & SCISSOR</title>
+    <title>ROCK,PAPER & SCISSOR</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-
 </head>
 <body>
+    <div>
+        <h1>STORY LINE...</h1>
+        <h2 style="padding:20px;">Thanos destroyed one-half of the universe Meanwhile , Mr Wick finally decided To retire with his new dog.This unfortunate event cause to loose his new dog.Wick decide to confront Thanos and  make him pay.</h2>
+        <img Style="padding-left:300px;"src="Images/storyline.jpg">
+        <h2 style="padding:10px;text-align:center">Final move of this fight is going to be traditional Rock paper scissor match.</h2>
+    </div>
     <header>
         <h1>"It wasn't just a Puppy"</h1>
-        <h2 style="text-align:center;">It's not what you did son, It's who you did it to</h2>
+        <h2 style="text-align:center;">It's not what you did son, It's who you did it to🤠</h2>
     </header>
+    <!-- ScoreBoard -->
 <div class="scoreBoard">
     <div id ="computerLabel" class ="badge">Thanos
         <img src="thanos.png">
@@ -20,13 +22,15 @@
     <div id="userLabel" class ="badge">John  Wick
     <img src="wick.png">
     </div>
-    <span id="userScore" >0</span> <span>:</span> <span id="computerScore">0</span>
+    <span id="userScore">0</span>  <span>:</span> <span id="computerScore">0</span>
 </div>
 
 <div class="content"> 
-     <div class ="result">
-         <p>Paper covers Rock.</p>
+    <!-- Result -->
+     <div>
+         <p id="result">Hello There!👋, Mr.Wick Ask Your help to to Select Rock, Paper or Scissor.</p>
      </div>
+     <!-- <h2> </h2> -->
      <div class="choices">
          <div>
              <img class="choice" src= "Images/Rock.png" height ="200px" width="200px" alt="Rock" id="r">
@@ -34,8 +38,9 @@
              <img class="choice" src= "Images/Paper.png" height ="200px" width="200px"alt="Paper" id ="p">
          </div>
      </div>
-     <p id="actionMsg">Whoever comes, whoever it is...I’ll kill them. I’ll kill them all. </p>
+     <p id="actionMsg">Whoever comes, whoever it is...I’ll kill them. I’ll kill them all.</p>
+</div>
 
-</div>div>
+<script src="script.js"></script>
 </body>
 </html>

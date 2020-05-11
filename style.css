@@ -7,7 +7,7 @@
 body{
     background-image:url("wall.jpg");
     /* background-size: cover; */
-;
+
 }
 header{
     background:rgb(195, 151, 216);
@@ -33,7 +33,6 @@ position:relative;
  }
 
  .badge{
-     
      /* background-color:goldenrod; */
      color:white;
      font-size:20px;
@@ -41,11 +40,9 @@ position:relative;
  }
 
  #userLabel {
-    
      position:absolute;
      top:30px;
      left:550px; 
-
  }
 
  #computerLabel{
@@ -54,11 +51,11 @@ position:relative;
      right:550px;
  }
 .content{
-     margin:230px; 
+     margin:300px; 
  }
 
 
- .result > p{
+ #result{
      font-size:25px;
      text-align:center;
      font-weight:bold;
