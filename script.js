@@ -27,7 +27,7 @@ function win(thanos_input,wick_input){
  userScoreSpan.innerHTML = userScore;
  //result status
  matchstatus.innerHTML = `Wick Wins😁.<br>
- Thanos picked ${letterToWeapon(thanos_input)} 🤠 wick picked ${letterToWeapon(wick_input)}`;
+ Thanos picked ${letterToWeapon(thanos_input)} 🤠 Wick picked ${letterToWeapon(wick_input)}`;
  //adding glow to user clicked choice()
   document.getElementById(wick_input).classList.add('green-glow'); 
  //here we take user selected id then go its class list(which get displayed as array of class) ,appended to greenglow class to classes  array
